@@ -1,54 +1,29 @@
-.header{
-    background-color: skyblue;
-   text-align: center;
-    padding: 20px;
-}
-
-/*The nav bar container */
-.topnav{
+ body{
+     margin: 0px;
+     padding: 0px;
+     font-family: cursive;
+     background-color: rgb(199, 199, 202);
+ }
+ ul{
+    list-style-type: none;
+    margin:0ch;
+    padding:0ch;
     overflow: hidden;
-    background-color: thistle;
-}
-/*Navbar links*/
-.topnav a{
-    
-}
+    background-color:lightblue;
+   }
 
-
-
-
-
-
-body{
-    background-color: lightgrey;
-
-}
-    
-}
-
-
-
-}
-ul{
-list-style-type: none;
-margin:0ch;
-padding:0ch;
-overflow: hidden;
-background-color:lightblue;
-}
-
-li {
-float: left;
+   li {
+    float: left;
 }
 
 a{
-display: block;
-padding: 8px;
-background-color:lightpink
+   display: block;
+   padding: 8px;
+   background-color:lightpink
 }
 
 ul{
-background-color: lightslategrey;
+    background-color: lightslategrey;
 }
 
 ul{
@@ -58,31 +33,19 @@ padding: 0;
 overflow: hidden;
 background-color: lightsteelblue;
 }
-li{
-float: left;
-}
-
-
-
+ li{
+     float: left;
+ }
 
 li a{
     display: block;
-    font-family:cursive;
-    color: white;
-    text-align: center;
-    padding: 14px  160x;
-    text-decoration: none;
-    }
-
-    li a{
-        display: block;
-       
-
-
-
-
+   color: white;
+text-align: center;
+padding: 14px  160x;
+text-decoration: none;
+}
 .active{
-background-color: violet;
+    background-color: violet;
 }
 
 /*Add a grey right border to all list items, except the last item (:last-child)*/
@@ -90,7 +53,7 @@ li{
 border-right: 1px solid #bbb;
 }
 li: :last-child{
-border-right:none;
+    border-right:none;
 }
 body{p.solid {border-style: solid;}
 
@@ -98,47 +61,64 @@ body{p.solid {border-style: solid;}
 p.solid {border-style: solid;}
 
 div  {
-   width: 300px;
-   border:15px solid grey;
-   padding: 50px;
-   margin: 20px;
+        width: 300px;
+        border:15px solid grey;
+        padding: 50px;
+        margin: 20px;
 }
 
 
+body{
+    color:rgb(78, 0, 78);
+}
+h3{
+    color: white;
 }
 
-<style>
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content{
-    display: none;
-     position: absolute;
-     background-color: mediumpurple;
-     min-width: 160px;
-     box-shadow: 0ox 8px 16px 0px
-     rgba(red, green, blue, alpha);
-    padding: 12px 16px;
-     z-index: 1;
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50, 50%);
+    background: lightskyblue;
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
-}
-</style>
 
-<div class= "dropdown">
-<span>Mouse over me</span>
-<div class="dropdown-content">
-<p>Home</p>
-</div>
-</div>
+
+
+
+
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     background-color: skyblue;
    text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 
