@@ -2,25 +2,68 @@
 <html>
 
 <head>    <link rel="stylesheet" href="contact us .css">
-    <img src="logo.png" alt="logo">
+    <img src="logo 2.png" alt="logo">
 <title style="background-color:cornflowerblue;">Connect with us</title>
 
 <ul>
 <li><a href="index.html">Home</a></li>
-<li><a href=" about.html">About Rome</a></li>
+<li><a href=" about.html">Ancient & Modern Rome</a></li>
 <li><a href="Events and Festivals.html">Events and Festivals</a></li>
-<li><a href="Food and Cusines.html">Food</a></li>
+<li><a href="Food and Cusines.html">Food & Restuarents</a></li>
 <li><a href="lifetsyle.html">lifetsyle</a></li>
 <li><a href="Contact us.html">Connect with us</a></li>
 
 </ul>
-</head>
 
+<h1 style="text-align: center;">      <i><b>Connect With Us</b></i></h1>
+<img height="600"  width="1000"        src="gimp home pic.jpg" alt="picture of rome">
+
+
+
+</head>
+<style>
+  #container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: rgb(0 ,0 , 24);
+  }
+  #animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(235, 183, 10);
+  }
+  </style>
+  <body>
+  
+  <p><button onclick="myMove()">Click here</button></p> 
+  
+  <div id ="container">
+    <div id ="animate"></div>
+  </div>
+  
+  <script>
+  var id = null;
+  function myMove() {
+    var elem = document.getElementById("animate");   
+    var pos = 0;
+    clearInterval(id);
+    id = setInterval(frame, 5);
+    function frame() {
+      if (pos == 350) {
+        clearInterval(id);
+      } else {
+        pos++; 
+        elem.style.top = pos + "px"; 
+        elem.style.left = pos + "px"; 
+      }
+    }
+  }
+  </script>
+  
 
 <body>
-
-         <h1 style="text-align: center;">      <i><b>Connect With Us</b></i></h1>
-<img height="600"  width="1000"        src="gimp home pic.jpg" alt="picture of rome">
 
         <h2>Login</h2>
 
@@ -56,7 +99,7 @@
 
 <hr>
 
-<footer style="background-color: lightblue;">
+<footer style="background-color: 1 , 9 , 43;">
       <p style="text-align: center;"><b>  Terms of Use  / Privacy Policy
        <p style="text-align: center;">HOME |ABOUT ME |PRIVACY POLICY | LEGAL<br>DISCLAMR |AFFILIATE DISCLOSURE |CONTACT ME<br></p>
       <p style="text-align: center;">    <br>contacts:+267 77928910,  +1 287390193,   +27 3829282</p>
